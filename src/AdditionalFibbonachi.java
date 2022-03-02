@@ -32,7 +32,7 @@ public class AdditionalFibbonachi
 
     public static long fiboSave(int n)
     {
-        if (n - 1 <= savedFib.size())
+        if (n <= savedFib.size())
             return savedFib.get(n-1);
         else
         {
