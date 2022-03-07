@@ -332,6 +332,7 @@ public class Lec4 {
 
         //Part 5
         System.out.println("Part 5:");
+        System.out.println("Enter name:");
         String name = scan.nextLine();
         for (int i = 0; i < 10; i++)
             System.out.println(name + " любит меня.");
@@ -353,7 +354,7 @@ public class Lec4 {
         int minIndex = 0, maxIndex = 0;
         for (int i = 0; i < 3; i++)
         {
-            System.out.println("Input number" + i);
+            System.out.println("Input number" + (i + 1));
             a[i] = Integer.parseInt(scan.nextLine());
             if (a[i] > a[maxIndex])
                 maxIndex = i;
@@ -362,7 +363,7 @@ public class Lec4 {
         }
         for (int i = 0; i < 3; i++)
             if (i != maxIndex && i != minIndex)
-                System.out.println(a[i]);
+                System.out.println("Medium number is " + a[i]);
         System.out.println();
 
         //Part 3
@@ -375,6 +376,7 @@ public class Lec4 {
             temp = Integer.parseInt(scan.nextLine());
             sum+= temp;
         } while (temp != -1);
+        System.out.println("Summary is " + sum);
         System.out.println();
 
         //Part 4
