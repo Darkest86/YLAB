@@ -1,0 +1,4 @@
+Mon Mar 07 16:02:41 YEKT 2022 Emily won Lea
+Mon Mar 07 16:03:00 YEKT 2022 Timmy won Helen
+Mon Mar 07 16:03:38 YEKT 2022 Draw between Bird and Dog
+Mon Mar 07 16:03:58 YEKT 2022 Dog won Cat
