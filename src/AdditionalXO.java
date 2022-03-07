@@ -111,7 +111,8 @@ public class AdditionalXO {
         System.out.println("Enter player 2 name:");
         name2 = scan.nextLine();
         System.out.println("Game started");
-        while (turns > 0 && checkNoWin(map, name1, name2))
+        boolean gameContinue = true;
+        while (turns > 0 && gameContinue)
         {
             while (true)
             {
@@ -132,8 +133,9 @@ public class AdditionalXO {
                 else
                     System.out.println("Invalid input. Try again.");
             }
+            gameContinue = checkNoWin(map, name1, name2);
         }
-        if (turns == 0)
+        if (turns == 0 && gameContinue)
         {
             System.out.println("Draw!");
             File f = new File("GameHisroty.txt");
