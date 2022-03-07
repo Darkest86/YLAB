@@ -354,7 +354,7 @@ public class Lec4 {
         int minIndex = 0, maxIndex = 0;
         for (int i = 0; i < 3; i++)
         {
-            System.out.println("Input number" + (i + 1));
+            System.out.println("Input number " + (i + 1));
             a[i] = Integer.parseInt(scan.nextLine());
             if (a[i] > a[maxIndex])
                 maxIndex = i;
